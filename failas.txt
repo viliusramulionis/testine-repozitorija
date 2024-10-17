@@ -1,0 +1,7 @@
+echo "# testine-repozitorija" >> README.md          - Sukuria failą pavadinimu README.md ir jame patalpina tekstą "# testine-repozitorija"
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/viliusramulionis/testine-repozitorija.git
+git push -u origin main
